@@ -3,10 +3,58 @@
     <head>
         <title>Search</title>
     </head>
+    <style> 
+        input[type=text] {
+          width: 100%;
+          box-sizing: border-box;
+          border-radius:5px;
+          background-color: white;
+          background-image: url('searchicon.png');
+          background-repeat: no-repeat;
+        }
+        input[type=submit] {
+          width: 100%;
+          box-sizing: border-box;
+          color: white;
+          background-color: blue;
+          
+        }
+        .button {
+            background-color: blue;
+            border: none;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+       }
+        </style>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div align="right">
+            <button onclick="myFunction()">Google Image Search</button>
+            <button onclick="myFunction1()">Google Advanced Search</button>
+
+    <script>
+    function myFunction() {
+        location.replace("https://www.w3schools.com")
+    }
+    </script>
+
+    <script>
+    function myFunction1() {
+        location.replace("https://www.w3schools.com")
+    }
+    </script>
+        </div>
+        <div class="header">
+            <header style="font-size:large; text-align: center;">
+                Google
+            </header>
+        </div>
+        <div align="center">
+            <form action="https://www.google.com/search">
+                <input type="text" name="q">
+                <p></p>
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
     </body>
 </html>
