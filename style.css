@@ -1,0 +1,20 @@
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:5px;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    background-color: blue;
+}
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
