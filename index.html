@@ -19,11 +19,6 @@
         location.replace("")
     }
     </script>
-    <script>
-        function myFunction2() {
-            location.replace("http://www.google.com/search?q=term&btnI")
-        }
-        </script>
         </div>
         <p></p>
         <pre>
@@ -39,8 +34,13 @@
             <form action="https://www.google.com/search">
                 <input style="box-sizing: border-box; border-radius:30px; background-color: white; background-repeat: no-repeat;" size="80" type="text" name="q">
                 <p></p>
-                <button style="box-sizing: border-box; color: white; background-color: blue;cursor: pointer; " type="submit" value="Google Search"></button>
-                <button style="color: white; background-color: blue;cursor: pointer;" onclick="myFunction2()" value="I`m Feeling Lucky" type="submit"></button>
+                <input style="box-sizing: border-box; color: white; background-color: blue;cursor: pointer; " type="submit" value="Google Search">
+            </form>
+            <br>
+            <form action="http://www.google.com/search?q=term&btnI">
+                <input style="box-sizing: border-box; border-radius:30px; background-color: white; background-repeat: no-repeat;" size="80" type="text" name="q">
+                <p></p>
+                <input style="box-sizing: border-box; color: white; background-color: blue;cursor: pointer;" value="I`m Feeling Lucky" type="submit">
             </form>
         </div>
     </body>
